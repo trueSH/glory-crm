@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04cf7de4-5e74-42bc-8eac-ad4845b82dcc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/glory-crm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/A/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/A/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Button/A.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Button/StyledButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Button/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Button/buttonStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Button/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Button/tests/A.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Button/tests/StyledButton.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Button/tests/Wrapper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Button/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Footer/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Footer/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Footer/tests/Wrapper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Footer/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Footer/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/H1/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/H1/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/H2/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/H2/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/H3/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/H3/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Header/A.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Header/HeaderLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Header/Img.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Header/NavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Header/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Header/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Header/tests/A.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Header/tests/Img.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Header/tests/__snapshots__/A.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Header/tests/__snapshots__/Img.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Header/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Header/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Img/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Img/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/IssueIcon/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/IssueIcon/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/List/Ul.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/List/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/List/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/List/tests/Ul.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/List/tests/Wrapper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/List/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ListItem/Item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ListItem/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ListItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ListItem/tests/Item.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ListItem/tests/Wrapper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ListItem/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/LoadingIndicator/Circle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/LoadingIndicator/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/LoadingIndicator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/LoadingIndicator/tests/Circle.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/LoadingIndicator/tests/Wrapper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/LoadingIndicator/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/LoadingIndicator/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ReposList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ReposList/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ReposList/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Toggle/Select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Toggle/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Toggle/tests/Select.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Toggle/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Toggle/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ToggleOption/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ToggleOption/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ToggleOption/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/configureStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/tests/actions.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/tests/reducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/App/tests/selectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/FeaturePage/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/FeaturePage/ListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/FeaturePage/ListItemTitle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/FeaturePage/Loadable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/FeaturePage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/FeaturePage/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/FeaturePage/tests/List.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/FeaturePage/tests/ListItem.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/FeaturePage/tests/ListItemTitle.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/FeaturePage/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/FeaturePage/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/AtPrefix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/CenteredSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/Loadable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/Section.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/saga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/tests/AtPrefix.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/tests/CenteredSection.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/tests/Form.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/tests/Input.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/tests/Section.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/tests/__snapshots__/saga.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/tests/actions.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/tests/reducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/tests/saga.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/HomePage/tests/selectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LanguageProvider/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LanguageProvider/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LanguageProvider/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LanguageProvider/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LanguageProvider/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LanguageProvider/tests/actions.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LanguageProvider/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LanguageProvider/tests/reducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LanguageProvider/tests/selectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LocaleToggle/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LocaleToggle/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LocaleToggle/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LocaleToggle/tests/Wrapper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LocaleToggle/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/LocaleToggle/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/NotFoundPage/Loadable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/NotFoundPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/NotFoundPage/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/NotFoundPage/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/RepoListItem/IssueIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/RepoListItem/IssueLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/RepoListItem/RepoLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/RepoListItem/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/RepoListItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/RepoListItem/tests/IssueIcon.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/RepoListItem/tests/IssueLink.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/RepoListItem/tests/RepoLink.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/RepoListItem/tests/Wrapper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/RepoListItem/tests/__snapshots__/IssueIcon.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/RepoListItem/tests/__snapshots__/IssueLink.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/RepoListItem/tests/__snapshots__/RepoLink.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/RepoListItem/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/containers/RepoListItem/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/global-styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/icon-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tests/i18n.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tests/store.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/translations/de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/translations/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/checkStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/injectReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/injectSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/loadable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/reducerInjectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/sagaInjectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/tests/checkStore.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/tests/injectReducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/tests/injectSaga.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/tests/reducerInjectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/tests/request.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/tests/sagaInjectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/linting.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/remove.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/sanitize.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/forks/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/commands.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/components.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/debugging.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/deployment.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/editor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/faq.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/files.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/gotchas.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/remove.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/server-configs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/webstorm-debug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/webstorm-eslint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/general/workflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/async-components.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/i18n.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/immer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/redux-saga.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/redux.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/remove.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/reselect.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/routing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/maintenance/dependency.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/testing/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/testing/component-testing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/testing/remote-testing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/testing/unit-testing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/component/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/component/index.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/component/loadable.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/component/messages.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/component/test.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/container/actions.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/container/actions.test.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/container/constants.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/container/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/container/index.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/container/messages.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/container/reducer.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/container/reducer.test.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/container/saga.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/container/saga.test.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/container/selectors.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/container/selectors.test.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/container/test.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/language/add-locale-data.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/language/app-locale.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/language/format-translation-messages.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/language/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/language/intl-locale-data.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/language/polyfill-intl-locale.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/language/translation-messages.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/language/translations-json.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/generators/utils/componentExists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/mocks/cssModule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/mocks/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/scripts/analyze.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/scripts/clean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/scripts/extract-intl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/scripts/generate-templates-for-linting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/scripts/helpers/checkmark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/scripts/helpers/get-npm-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/scripts/helpers/progress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/scripts/helpers/xmark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/scripts/npmcheckversion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/scripts/setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/configureStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/App/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/App/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/App/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/App/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/App/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/App/tests/selectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/HomePage/Loadable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/HomePage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/HomePage/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/HomePage/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/HomePage/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/LanguageProvider/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/LanguageProvider/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/LanguageProvider/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/LanguageProvider/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/LanguageProvider/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/NotFoundPage/Loadable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/NotFoundPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/NotFoundPage/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/NotFoundPage/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/containers/NotFoundPage/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/global-styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/tests/i18n.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/tests/store.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/translations/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/utils/checkStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/utils/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/utils/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/utils/injectReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/utils/injectSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/utils/loadable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/utils/reducerInjectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/utils/sagaInjectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/utils/tests/checkStore.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/utils/tests/injectReducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/utils/tests/injectSaga.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/utils/tests/reducerInjectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/templates/utils/tests/sagaInjectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/testing/test-bundler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/webpack/webpack.base.babel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/webpack/webpack.dev.babel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internals/webpack/webpack.prod.babel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/argv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middlewares/addDevMiddlewares.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middlewares/addProdMiddlewares.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middlewares/frontendMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/port.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="154" column="50" lean-forward="true" selection-start-line="154" selection-start-column="50" selection-end-line="154" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/ToggleOption/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/argv.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/reducers.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/Footer/Wrapper.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-313">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/logger.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/port.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-111" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="glory-crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="glory-crm" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04cf7de4-5e74-42bc-8eac-ad4845b82dcc" name="Default Changelist" comment="" />
+      <created>1562220866813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562220866813</updated>
+      <workItem from="1562220868178" duration="633000" />
+      <workItem from="1562222587558" duration="1313000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add package.json">
+      <created>1562220948452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562220948452</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1946000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-111" y="-1080" width="1920" height="1080" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add package.json" />
+    <MESSAGE value="react-boilerplate creator add in project" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-boilerplate creator add in project" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/packages/create-react-app/createReactApp.js" />
+    <entry file="file://$PROJECT_DIR$/lerna.json" />
+    <entry file="file://$PROJECT_DIR$/tasks/e2e-behavior.sh" />
+    <entry file="file://$PROJECT_DIR$/tasks/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/tasks/screencast.js" />
+    <entry file="file://$PROJECT_DIR$/tasks/verdaccio.yaml" />
+    <entry file="file://$PROJECT_DIR$/docusaurus/website/core/Footer.js" />
+    <entry file="file://$PROJECT_DIR$/docs/css/remove.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/logger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/port.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/A/tests/index.test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Footer/Wrapper.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-97" />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/argv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="154" column="50" lean-forward="true" selection-start-line="154" selection-start-column="50" selection-end-line="154" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/i18n.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/ToggleOption/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/A/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/reducers.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
